@@ -36,8 +36,8 @@ steps:
   displayName: 'pytest'
 - script: |
     pip install flake8 pylint
-    flake8 mypackage/  # Adjust the path to your package's source code
-    pylint mypackage/  # Adjust the path to your package's source code
+    flake8 mypackage/
+    pylint mypackage/
   displayName: 'Code Quality Analysis'
 
 - script: |
