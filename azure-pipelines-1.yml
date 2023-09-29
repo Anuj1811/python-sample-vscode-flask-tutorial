@@ -36,8 +36,8 @@ steps:
   displayName: 'pytest'
 - script: |
     pip install flake8 pylint
-    flake8 Anuj1811.python-sample-vscode-flask-tutorial/
-    pylint Anuj1811.python-sample-vscode-flask-tutorial/
+    flake8 python-sample-vscode-flask-tutorial/
+    pylint python-sample-vscode-flask-tutorial/
   displayName: 'Code Quality Analysis'
 
 - script: |
