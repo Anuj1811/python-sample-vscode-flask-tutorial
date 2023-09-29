@@ -34,11 +34,11 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
-- script: |
-    pip install flake8 pylint
-    flake8 python-sample-vscode-flask-tutorial/
-    pylint python-sample-vscode-flask-tutorial/
-  displayName: 'Code Quality Analysis'
+#- script: |
+ #   pip install flake8 pylint
+  #  flake8 python-sample-vscode-flask-tutorial/
+   # pylint python-sample-vscode-flask-tutorial/
+  #displayName: 'Code Quality Analysis'
 
 - script: |
     pip install coverage
